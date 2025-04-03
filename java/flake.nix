@@ -16,7 +16,6 @@
           java-language-server
           kotlin-language-server
           gradle
-          (import ./patch_gradle_libnativeplatform.nix {inherit pkgs;})
         ];
 
         shellHook = ''
@@ -24,6 +23,9 @@
           patch_gradle_libnativeplatform
         '';
       };
+
+      # Only for NixOS
+      packages.patch_gradle = import ./patch_gradle_libnativeplatform.nix {inherit pkgs;};
 
   });
 }
