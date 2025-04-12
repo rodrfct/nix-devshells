@@ -16,7 +16,7 @@
           typescript
           typescript-language-server
           nodePackages_latest.nodejs
-          nodePackages_latest.vue-language-server
+          vue-language-server
 
           firefox-devedition
           brave
