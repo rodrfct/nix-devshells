@@ -15,10 +15,6 @@
           vscode-langservers-extracted
           typescript
           typescript-language-server
-
-          firefox-devedition
-          brave
-          epiphany
         ];
 
         shellHook = ''

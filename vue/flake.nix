@@ -17,10 +17,6 @@
           typescript-language-server
           nodePackages_latest.nodejs
           vue-language-server
-
-          firefox-devedition
-          brave
-          epiphany
         ];
 
         shellHook = ''
