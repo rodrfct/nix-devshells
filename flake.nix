@@ -25,6 +25,11 @@
           description = "Rust devShell";
         };
 
+        tauri = {
+          path = ./tauri;
+          description = "Tauri devShell";
+        };
+
         java = {
           path = ./java;
           description = "Java devShell";
