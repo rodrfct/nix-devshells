@@ -15,9 +15,10 @@
           vscode-langservers-extracted
           typescript
           typescript-language-server
+          vtsls
           nodePackages_latest.nodejs
           tailwindcss-language-server
-          emmet-ls
+          emmet-language-server
         ];
 
         shellHook = ''
