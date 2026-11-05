@@ -15,7 +15,7 @@
           vscode-langservers-extracted
           typescript
           typescript-language-server
-          nodePackages_latest.nodejs
+          nodejs
           vue-language-server
         ];
 

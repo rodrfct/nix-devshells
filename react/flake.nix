@@ -16,7 +16,7 @@
           typescript
           typescript-language-server
           vtsls
-          nodePackages_latest.nodejs
+          nodejs
           tailwindcss-language-server
           emmet-language-server
         ];
