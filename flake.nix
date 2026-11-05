@@ -14,11 +14,15 @@
           description = "Vue.js devShell";
         };
 
+        node = {
+          path = ./node;
+          description = "Node devShell";
+        };
+
         react = {
           path = ./react;
           description = "React devShell";
         };
-
 
         rust = {
           path = ./rust;
